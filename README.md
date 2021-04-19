@@ -1,5 +1,11 @@
 # bootcamp-frontend
 ## This is frontend React js application for Udemy Like Bootcamp courses listing Web App.
+## Routes in this app : 
+```
+/ - Homepage route where all products are listed
+/addBootcamp - This routes if for adding new courses / products in the database. 
+
+```
 ## For Frontend have below technology used :
 1. React js 
 2. Material UI

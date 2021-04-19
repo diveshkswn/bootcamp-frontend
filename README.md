@@ -1,5 +1,5 @@
 # bootcamp-frontend
-## This is frontend React js application for Udemy Like Bootcamp courses listing Web App.
+## This is frontend React js application for Udemy Like Bootcamp courses listing and adminpage Web App.
 ## Routes in this app : 
 ```
 / - Homepage route where all products are listed
@@ -11,6 +11,15 @@
 2. Material UI
 3. React Router
 4. React Hooks such as : useState , useEffect
+5. Heroku for backend Deployment. Application deployed on : https://stark-dusk-95651.herokuapp.com/
+6. Netlify for Frontend Deployemnt, Application deployed on  : 
+
+```
+GET https://stark-dusk-95651.herokuapp.com/api/v1/bootcamps/
+POST https://stark-dusk-95651.herokuapp.com/api/v1/bootcamps/
+DELETE https://stark-dusk-95651.herokuapp.com/api/v1/bootcamps/id
+PUT  https://stark-dusk-95651.herokuapp.com/api/v1/bootcamps/id
+```
 
 ### Backend of this application : https://github.com/diveshkswn/bootcamp-backend
 

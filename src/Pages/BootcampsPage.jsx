@@ -52,7 +52,7 @@ function BootcampsPage() {
     try {
       const { data } = await axios({
         method: 'GET',
-        url: `/api/v1/bootcamps/${filter}${sort}`,
+        url: `https://stark-dusk-95651.herokuapp.com/api/v1/bootcamps/${filter}${sort}`,
         // cancelToken: new axios.CancelToken((c) => { cancel = c; }),
       });
       console.log(data);

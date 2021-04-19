@@ -45,7 +45,7 @@ function AddBootcamp() {
 
   async function postData() {
     try {
-      const data = await axios.post('/api/v1/bootcamps/', submitData);
+      const data = await axios.post('https://stark-dusk-95651.herokuapp.com/api/v1/bootcamps/', submitData);
       if (data.data.success) {
         setSnackTrue(true);
         setTimeout(() => { setSnackTrue(false); }, 3000);

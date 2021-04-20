@@ -12,7 +12,7 @@
 3. React Router
 4. React Hooks such as : useState , useEffect
 5. Heroku for backend Deployment. Application deployed on : https://stark-dusk-95651.herokuapp.com/
-6. Netlify for Frontend Deployemnt, Application deployed on  : 
+6. Netlify for Frontend Deployemnt, Application deployed on  : https://bootcamps-by-divesh.netlify.app/
 
 ```
 GET https://stark-dusk-95651.herokuapp.com/api/v1/bootcamps/
